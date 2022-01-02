@@ -1,0 +1,171 @@
+body {
+  margin: 0;
+}
+.navbar {
+  float: right;
+  margin-right: 50px;
+}
+.navbar-ul {
+  list-style: none;
+}
+.navbar-ul li {
+  float: left;
+  margin-left: 43px;
+  font-size: 15px;
+}
+.navbar-ul a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: white;
+}
+.nav-logo {
+  color: white;
+  margin-left: 52px;
+  font-size: 15px;
+}
+.header {
+  overflow: hidden;
+  height: 800px;
+  background: linear-gradient(
+    153deg,
+    rgba(45, 191, 221, 1) 52%,
+    rgba(9, 9, 121, 1) 100%,
+    rgba(2, 0, 36, 1) 100%
+  );
+  padding-top: 41px;
+  font-family: arial;
+}
+.imgdiv {
+  width: 1036px;
+  height: 800px;
+  margin-top: 196px;
+  position: absolute;
+  margin-left: 250px;
+  border-radius: 4px;
+  background: white;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.img-me {
+  margin-left: 70px;
+  margin-top: 70px;
+  width: 375px;
+  height: 500px;
+  border-radius: 5px;
+  box-shadow: rgb(0 0 0 / 35%) 1px 6px 4px 0px;
+}
+.text-div {
+  float: right;
+  margin-top: -522px;
+  width: 537px;
+  text-align: left;
+  opacity: 0.9;
+}
+#contact-info {
+  list-style: none;
+  float: left;
+  height: 173px;
+  line-height: 43px;
+  opacity: 0.7;
+  font-size: 19px;
+  margin-left: -28px;
+}
+.contact-text li {
+  list-style: none;
+}
+
+ul.social-links {
+  padding-top: 251px;
+  list-style: none;
+  padding-left: 0px;
+}
+
+.social-links li {
+  margin-left: 12px;
+  float: left;
+  font-size: 23px;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 4px;
+  color: white;
+  background: #e8e8e8;
+}
+
+.social-links li:hover {
+  background: #0056b3;
+}
+section#mid-section {
+  width: 1039px;
+  height: 570px;
+  margin-left: 251px;
+  margin-top: 390px;
+}
+.text-skills-details {
+  width: 520px;
+}
+.text-skills-details h2 {
+  font-size: 30px;
+  text-transform: uppercase;
+  font-family: arial;
+  opacity: 0.7;
+}
+.text-skills-details p {
+  font-size: 16px;
+  color: gray;
+  font-family: arial;
+  text-transform: capitalize;
+  padding-top: 15px;
+}
+.mid-sec-row {
+  list-style: none;
+  width: 520px;
+  margin-left: -17px;
+  margin-top: 67px;
+}
+.col-1 {
+  float: left;
+  margin: 17px;
+  text-align: left;
+  font-size: 16px;
+  border: 2px solid #f1f1f1;
+  border-radius: 4px;
+  padding: 19px;
+}
+.col-1 i {
+  font-size: 26px;
+  padding: 5px;
+  color: #34c6dd;
+}
+.skills-bar {
+  float: left;
+  margin-top: -231px;
+  padding-left: 130px;
+}
+.col-lg-6 {
+  float: left;
+  margin-left: 71px;
+  margin-top: -234px;
+}
+.tools_expert .skill_main .skill_item .progress_br {
+  border: 1px solid #cdcdcd;
+  border-radius: 10px;
+  background: #b9b9b9;
+  width: 315%;
+}
+
+.tools_expert .skill_main .skill_item .progress {
+  height: 10px;
+  border-radius: 23px;
+  background: #dadddf;
+}
+
+.tools_expert .skill_main .skill_item .progress-bar {
+  height: 10px;
+  border-radius: 10px;
+  outline: none;
+  border: 32px;
+  background-image: -webkit-linear-gradient(0deg, #766dff 0%, #88f3ff 100%);
+  align-self: center;
+}
+.tools_expert .skill_main .skill_item h4 {
+  font-family: arial;
+}
